@@ -1,0 +1,110 @@
+.vc-wpmt-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 0 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    vertical-align: middle;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted, #949ba4);
+    background: var(--background-modifier-accent, rgb(78 80 88 / 48%));
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.vc-wpmt-badge:hover {
+    filter: brightness(1.2);
+}
+
+.vc-wpmt-badge.vc-wpmt-slow {
+    color: #b5bac1;
+}
+
+.vc-wpmt-badge.vc-wpmt-ok {
+    color: #fff;
+    background: rgb(35 165 90 / 55%);
+}
+
+.vc-wpmt-badge.vc-wpmt-fast {
+    color: #fff;
+    background: rgb(88 101 242 / 65%);
+}
+
+.vc-wpmt-badge.vc-wpmt-blazing {
+    color: #fff;
+    background: rgb(181 38 120 / 85%);
+}
+
+.vc-wpmt-live {
+    position: fixed;
+    z-index: 1000;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-normal, #dbdee1);
+    background: var(--background-floating, #111214);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.vc-wpmt-stats {
+    color: var(--text-normal, #dbdee1);
+    font-size: 14px;
+}
+
+.vc-wpmt-search {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--text-normal, #dbdee1);
+    background: var(--input-background, #1e1f22);
+}
+
+.vc-wpmt-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vc-wpmt-table th,
+.vc-wpmt-table td {
+    text-align: left;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--background-modifier-accent, #3f4147);
+}
+
+.vc-wpmt-table th {
+    font-size: 12px;
+    color: var(--header-secondary, #b5bac1);
+    cursor: pointer;
+}
+
+.vc-wpmt-table .vc-wpmt-num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.vc-wpmt-empty {
+    color: var(--text-muted, #949ba4);
+    padding: 12px 0;
+}
+
+.vc-wpmt-reset {
+    margin-top: 12px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    background: var(--button-danger-background, #da373c);
+}
